@@ -1,0 +1,6 @@
+## Setup Hostname
+- hosts: all 
+  become: true
+  tags: hostname 
+  roles:
+   - hostname-setup
