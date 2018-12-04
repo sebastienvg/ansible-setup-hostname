@@ -1,7 +1,7 @@
 ## @sebastva
 ## Setup Hostname
 - hosts: all 
-  become: true
+  become: false
   tags: hostname 
   roles:
    - hostname-setup
